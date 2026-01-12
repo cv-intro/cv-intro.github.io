@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+  </script>
+<script type="text/javascript"
+  src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PMECBP9FNR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-PMECBP9FNR');
+</script>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>EE/CE 452/461 - Computer Vision</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/jpeg" href="static/images/favicon.jpg">
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L553BZYNH0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-L553BZYNH0');
+</script>
+
+<body>
+  <div class="nav">
+    <div class="nav-container">
+      <img src="static/images/hu-logo-200.png" alt="Habib University" class="nav-logo">
+      <a href="index.html#">Home</a>
+      <a href="index.html#instructor">Instructor</a>
+      <a href="index.html#description">Description</a>
+      <a href="index.html#schedule">Schedule</a>
+      <a href="index.html#assignments">Assignments</a>
+      <a href="index.html#materials">Materials</a>
+      <a href="index.html#grading">Grading</a>
+      <a href="index.html#project">Project</a>
+    </div>
+  </div>
+
+  <div class="title-container">
+    <div style="text-align: center;" class="title-text">
+      <div style="width: 90%; margin: auto;z-index: 2; position: relative;">
+        <div class="subtitle">EE/CE 452/461</div>
+        <h1 class="main-title"><b>Computer Vision</b></h1>
+        <div class="subtitle" style="margin: 20px;">
+          Deep dive into how machines see
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <!-- Instructor Section -->
+    <div class="section fade-in" id="instructor">
+      <h2>Instructor</h2>
+      <div class="instructor-card">
+        <img src="./static/images/zubair.JPG" alt="Muhammad Zubair Irshad" class="instructor-photo">
+        <div class="instructor-info">
+          <h3>Muhammad Zubair Irshad</h3>
+          <p><strong>Office:</strong> N-232</p>
+          <p><strong>Email:</strong> <a href="mailto:zubair.irshad@sse.habib.edu.pk"
+              style="text-decoration: underline;">zubair.irshad@sse.habib.edu.pk</a>
+          </p>
+          <p><strong>Office Hours:</strong> Tue, Thu: 1:30-2:25 PM</p>
+          <p><strong>Website:</strong> <a href="https://zubairirshad.com" target="_blank"
+              style="text-decoration: underline;">zubairirshad.com</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Course Description -->
+    <div class="section fade-in" id="description">
+      <h2>Course Description</h2>
+      <p>
+        Have you ever wondered how a machine or computer is made capable of understanding, interpreting,
+        and giving semantics to an image/video? Have you ever thought about how image/video could be
+        used to automate processes in a wider application domain ranging from industry to biomedicine? The
+        answer lies in image processing and computer vision which plays a central role in all of these.
+      </p>
+      <p>
+        This course is a continuation of EE451 Digital Image Processing and is developed for Electrical Engineering
+        and Computer Science students. Computer Vision has emerged as a revolutionary field that employs
+        Image Processing, Pattern Recognition, and Machine Learning to imitate human vision in order to
+        automate processes in a wide range of real-world applications.
+      </p>
+      <p>
+        The ever so rapid growth and hence increasing applications have made Computer vision ubiquitous and it,
+        along with Artificial Intelligence, is transforming the way humans approach their daily routine life. In this
+        course,
+        the aim is to explore the field of computer vision and pattern recognition from an application perspective where
+        the main
+        focus will be on visual recognition and classification using deep neural networks.
+      </p>
+    </div>
+
+    <!-- Course Aims -->
+    <div class="section fade-in" id="aims">
+      <h2>Course Aims</h2>
+      <p>The course aims to equip students with:</p>
+      <ul class="aims-list">
+        <li>The components as well as techniques of computer vision and image analysis</li>
+        <li>The concepts as well as ingredients of traditional machine learning and convolutional neural networks based
+          deep learning for visual recognition</li>
+        <li>An ability to utilize the tools of computer vision to solve real world problems, e.g., in industry and
+          biomedicine</li>
+      </ul>
+    </div>
+
+    <!-- Schedule Section -->
+    <div class="section fade-in" id="schedule">
+      <h2>Week-Wise Schedule (Tentative)</h2>
+      <div class="schedule-wrapper">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th>Week</th>
+              <th>Topic(s)</th>
+              <th>Reading(s)</th>
+              <th>Remarks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="section-header">
+              <td colspan="4">Foundations of Vision I: Image Formation and Processing</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 1<br><span class="week-date">January 12 – 16, 2026</span></td>
+              <td>Intro to Course, Overview of Computer Vision <br> Math/Linear Algebra Review</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 2<br><span class="week-date">January 19 – 23, 2026</span></td>
+              <td>Geometric Image Formation, <br> Photometric Image Formation</td>
+              <td>Chapter 5, 6, 7</td>
+              <td>Assignment 0 released</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 3<br><span class="week-date">January 26 – 30, 2026</span></td>
+              <td>Foundation of Image Processing: <br> Linear Filters, Systems and Convolutions</td>
+              <td>Chapter 15, 16</td>
+              <td>Assignment 0 due<br>Assignment 1 released</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 4<br><span class="week-date">February 02 – 06, 2026</span></td>
+              <td>Derivative, Edges and Lines</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr class="section-header">
+              <td colspan="4">Deep Learning</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 5<br><span class="week-date">February 9 – 13, 2026</span></td>
+              <td>Learning to See</td>
+              <td>Chapter 9, 11</td>
+              <td>Assignment 1 due</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 6<br><span class="week-date">February 16 – 20, 2026</span></td>
+              <td>Neural Networks, <br> How to do good research</td>
+              <td>Chapter 12, 13, 14</td>
+              <td>Assignment 2 released</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 7<br><span class="week-date">February 23 – 27, 2026</span></td>
+              <td>Convolutional Neural Networks</td>
+              <td>Chapter 24</td>
+              <td><strong>Project Proposal Due</strong></td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 8<br><span class="week-date">March 2 – 6, 2026</span></td>
+              <td>Transformers Continued</td>
+              <td>Chapter 26</td>
+              <td><span class="highlight"></span></td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 9<br><span class="week-date">March 9 – 13, 2026</span></td>
+              <td>Representation Learning <br> <span class="highlight"><strong>Midterm March 11, 2026</strong></span>
+              </td>
+              <td>Chapter 30</td>
+              <td>Assignment 2 due<br>Assignment 3 released</td>
+            </tr>
+
+            <tr class="section-header">
+              <td colspan="4">Foundations of Vision II: 3D, Geometry and Motion</td>
+            </tr>
+
+            <tr>
+              <td class="week-cell">Week - 10<br><span class="week-date">March 16 – 20, 2026</span></td>
+              <td>3D Geometry, Camera Calibration</td>
+              <td>Chapters 38-40</td>
+              <td><strong>Project detailed literature review due</strong></td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 11<br><span class="week-date">March 23 – 27, 2026</span></td>
+              <td>Multi-view Geometry, Learning-based 3D Estimation<br><span class="holiday">Holiday March 23 (Pakistan
+                  Day)</span></td>
+              <td>Chapters 43, 44</td>
+              <td>Assignment 3 due<br>Assignment 4 released</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 12<br><span class="week-date">Mar 30 – Apr 03, 2026</span></td>
+              <td>Structure from Motion, <br> Motion Estimation, Optical Flow, and Tracking</td>
+              <td>Chapters 44, 46-49</td>
+              <td>-</td>
+            </tr>
+            <tr class="section-header">
+              <td colspan="4">Advanced Frontiers</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 13<br><span class="week-date">April 6 – 10, 2026</span></td>
+              <td>Project Progress Demos, <br> Object Recognition</td>
+              <td>Chapter 50</td>
+              <td>Assignment 4 due</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 14<br><span class="week-date">April 13 – 17, 2026</span></td>
+              <td>Radiance Fields, Generative Models</td>
+              <td>Chapter 32, 33, 45</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 15<br><span class="week-date">April 20 – 24, 2026</span></td>
+              <td>Vision-and-Language</td>
+              <td>Chapter 51</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td class="week-cell">Week - 16<br><span class="week-date">April 27 – 30, 2026</span></td>
+              <td>Final Project Demos</td>
+              <td>-</td>
+              <td class="highlight"><strong>Project Finals and Paper due</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Assignments Section -->
+    <div class="section fade-in" id="assignments">
+      <h2>Assignments</h2>
+      <div class="assignments-grid">
+        <div class="assignment-card">
+          <div class="assignment-num">0</div>
+          <div class="assignment-title">Colabs, Python Basics</div>
+        </div>
+        <div class="assignment-card">
+          <div class="assignment-num">1</div>
+          <div class="assignment-title">Filters, Convolution, Edges and Smart Lane Detection</div>
+        </div>
+        <div class="assignment-card">
+          <div class="assignment-num">2</div>
+          <div class="assignment-title">Neural Networks</div>
+        </div>
+        <div class="assignment-card">
+          <div class="assignment-num">3</div>
+          <div class="assignment-title">Convolution Neural Networks + Vision Transformers</div>
+        </div>
+        <div class="assignment-card">
+          <div class="assignment-num">4</div>
+          <div class="assignment-title">Optical Flow</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Textbooks & Materials -->
+    <div class="section fade-in" id="materials">
+      <h2>Textbooks & Materials</h2>
+      <div class="books-grid">
+        <div class="book-card">
+          <div class="book-title">Foundations of Computer Vision</div>
+          <div class="book-authors">Antonio Torralba, Phillip Isola, William Freeman</div>
+          <div class="book-edition">1st Edition</div>
+          <a href="https://visionbook.mit.edu/" target="_blank" class="book-link">Read Online →</a>
+        </div>
+        <div class="book-card">
+          <div class="book-title">Computer Vision: Algorithms and Applications</div>
+          <div class="book-authors">R. Szeliski</div>
+          <div class="book-edition">Springer-Verlag, 2010</div>
+        </div>
+        <div class="book-card">
+          <div class="book-title">Deep Learning</div>
+          <div class="book-authors">I. Goodfellow, Y. Bengio, A. Courville</div>
+          <div class="book-edition">MIT Press, 2016</div>
+          <a href="http://www.deeplearningbook.org/" target="_blank" class="book-link">Read Online →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grading Section -->
+    <div class="section fade-in" id="grading">
+      <h2>Assessments & Grading</h2>
+      <div class="grading-container">
+        <table class="grading-table">
+          <thead>
+            <tr>
+              <th>Component</th>
+              <th>Weight</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Class Participation + Quizzes</td>
+              <td>10%</td>
+            </tr>
+            <tr>
+              <td>Assignments (4)</td>
+              <td>35%</td>
+            </tr>
+            <tr>
+              <td>Midterm Exam</td>
+              <td>20%</td>
+            </tr>
+            <tr>
+              <td>Project and Paper</td>
+              <td>35%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Final Project Section -->
+    <div class="section fade-in" id="project">
+      <h2>Course Project</h2>
+      <p>
+        The course project accounts for <strong>35%</strong> of the final course grade. The project is designed to
+        evaluate your ability to define a problem, make steady technical progress, and clearly communicate your ideas
+        and results.
+      </p>
+      <p>It consists of three required components:</p>
+      <div class="grading-container">
+        <table class="grading-table">
+          <thead>
+            <tr>
+              <th>Component</th>
+              <th>Weight</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Project Proposal</td>
+              <td>10%</td>
+            </tr>
+            <tr>
+              <td>Literature Review</td>
+              <td>5%</td>
+            </tr>
+            <tr>
+              <td>Progress Report</td>
+              <td>10%</td>
+            </tr>
+            <tr>
+              <td>Final Report & Presentation</td>
+              <td>10%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="margin-top: 20px; font-style: italic; color: #666;">
+        The proposal and progress report will be assessed by the course instructor.
+      </p>
+    </div>
+
+    <!-- Related Courses Section -->
+    <div class="section fade-in" id="related">
+      <h2>Related Courses</h2>
+      <div class="related-grid">
+        <a href="https://courses.cs.washington.edu/courses/cse455" target="_blank" class="related-card">
+          <div class="related-title">UW Computer Vision</div>
+          <div class="related-desc">CSE 455 - University of Washington</div>
+          <span class="related-link">courses.cs.washington.edu →</span>
+        </a>
+        <a href="https://introtocv.github.io/" target="_blank" class="related-card">
+          <div class="related-title">MIT Intro to Computer Vision</div>
+          <div class="related-desc">Introduction to Computer Vision - MIT</div>
+          <span class="related-link">introtocv.github.io →</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="foot">
+      EE/CE 452/461 - Computer Vision | Spring 2026
+      <br>
+      For inquiries, contact: <a href="https://zubairirshad.com" target="_blank">zubairirshad.com</a>
+    </div>
+  </div>
+
+  <script>
+    // Scroll-based active navigation highlighting
+    document.addEventListener('DOMContentLoaded', function () {
+      const sections = document.querySelectorAll('.section[id]');
+      const navLinks = document.querySelectorAll('.nav a[href*="#"]');
+
+      function updateActiveNav() {
+        const scrollPosition = window.scrollY + 100; // Offset for sticky nav
+
+        // Find which section is currently in view
+        let currentSection = '';
+
+        sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+
+          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+            currentSection = section.getAttribute('id');
+          }
+        });
+
+        // If at the very top, highlight Home
+        if (window.scrollY < 200) {
+          currentSection = '';
+        }
+
+        // Update nav link classes
+        navLinks.forEach(link => {
+          link.classList.remove('active');
+          const href = link.getAttribute('href');
+
+          if (currentSection === '' && href === 'index.html#') {
+            link.classList.add('active');
+          } else if (href.includes('#' + currentSection) && currentSection !== '') {
+            link.classList.add('active');
+          }
+        });
+      }
+
+      // Listen for scroll events
+      window.addEventListener('scroll', updateActiveNav);
+
+      // Run once on page load
+      updateActiveNav();
+    });
+  </script>
+
+</body>
+
+</html>
