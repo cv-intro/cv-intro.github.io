@@ -350,6 +350,7 @@ h3 {
     padding: 12px;
     border-bottom: 1px solid #eee;
     transition: all 0.3s ease;
+    text-align: left;
 }
 
 .schedule-table tbody tr:hover td {
@@ -379,8 +380,19 @@ h3 {
 }
 
 .schedule-table .holiday {
-    color: #e74c3c;
+    color: #006600;
     font-style: italic;
+}
+
+/* Chapter Links in Schedule Table */
+.chapter-link {
+    color: #51095d;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.chapter-link:hover {
+    color: #888;
 }
 
 .schedule-table .project {
